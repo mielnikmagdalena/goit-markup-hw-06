@@ -312,14 +312,18 @@ figure {
     gap: 20px;
 }
 .label-personal-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+    position: relative;
+}
+.svg-personal-data {
+    position: absolute;
 }
 .command {
     font-weight: 700;
@@ -333,7 +337,7 @@ figure {
     box-sizing: border-box;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    width: 448px;
+    width: 100%;
     height: 40px;
     margin-left: 40px;
     margin-right: 40px;
