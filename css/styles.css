@@ -347,6 +347,7 @@ figure {
     gap: 28px;
     padding-top: 4px;
 }
+
 .statement {
     font-family: 'Roboto';
     font-style: normal;
@@ -362,6 +363,9 @@ figure {
     top: 50%;
     transform: translateY(-50%);
     left: -18px;
+}
+.checkbox:checked + .input-personal-data {
+    border: 1px solid #2196f3;
 }
 .statement-with-button {
     display: flex;
