@@ -368,15 +368,6 @@ figure {
 .input-personal-data:focus {
     border: 1px solid #2196f3;
 }
-.checkbox {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -18px;
-}
-.input-personal-data:checked + .svg-personal-data {
-    color: #2196f3;
-}
 
 .statement {
     font-weight: 400;
@@ -385,12 +376,11 @@ figure {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    position: relative;
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 7px;
 }
-.statement:checked + .checkbox {
+.statement:checked + .checkbox:focus {
     color: #2196f3;
 }
 .email {
