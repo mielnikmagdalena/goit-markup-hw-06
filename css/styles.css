@@ -376,17 +376,17 @@ figure {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-left: 7px;
     appearance: none;
     border: 2px solid black;
+    width: 16px;
+    height: 15px;
+    margin-top: 20px;
+    position: relative;
 }
 .box {
     position: absolute;
-}
-.send {
-    position: relative;
+    top: 25px;
+    right: 7px;
 }
 
 .statement:checked + .box {
@@ -431,6 +431,7 @@ figure {
     height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 30px;
     margin-left: 164px;
     margin-right: 164px;
     outline: none;
