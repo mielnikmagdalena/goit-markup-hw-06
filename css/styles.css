@@ -379,7 +379,16 @@ figure {
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 7px;
+    appearance: none;
+    border: 2px solid black;
 }
+.box {
+    position: absolute;
+}
+.send {
+    position: relative;
+}
+
 .statement:checked + .box {
     color: #2196f3;
 }
