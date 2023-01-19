@@ -332,6 +332,9 @@ figure {
 }
 .input-personal-data:focus + .svg-personal-data {
     fill: #2196f3;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .command {
     font-weight: 700;
@@ -356,6 +359,9 @@ figure {
 }
 .textarea-command:focus {
     border: 1px solid #2196f3;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-personal-data {
     box-sizing: border-box;
@@ -371,6 +377,9 @@ figure {
 }
 .input-personal-data:focus {
     border: 1px solid #2196f3;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .statement {
@@ -463,6 +472,7 @@ figure {
     height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+    outline: none;
 }
 .instagram-icon {
     fill: var(--verylightgrey);
