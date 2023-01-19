@@ -328,6 +328,10 @@ figure {
     position: absolute;
     bottom: 11px;
     left: 12px;
+    fill: #212121;
+}
+.input-personal-data:focus + .svg-personal-data {
+    fill: #2196f3;
 }
 .command {
     font-weight: 700;
@@ -353,6 +357,10 @@ figure {
 }
 .textarea-command:focus {
     border: 1px solid #2196f3;
+}
+
+.textarea-command:focus {
+    color: #2196f3;
 }
 .input-personal-data {
     box-sizing: border-box;
@@ -381,6 +389,7 @@ figure {
     width: 16px;
     height: 15px;
     margin-top: 20px;
+    outline: none;
 }
 .send {
     position: relative;
@@ -394,9 +403,6 @@ figure {
 }
 .statement:checked {
     background-color: #2196f3;
-}
-.statement:checked + .svg-personal-data {
-    color: #2196f3;
 }
 .email {
     width: 358px;
@@ -441,6 +447,7 @@ figure {
     margin-left: 164px;
     margin-right: 164px;
     outline: none;
+    cursor: pointer;
 }
 .instagram-icon {
     fill: var(--verylightgrey);
