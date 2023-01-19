@@ -384,6 +384,8 @@ figure {
 }
 .send {
     position: relative;
+    margin-top: 20px;
+    margin-left: 54px;
 }
 .box {
     position: absolute;
@@ -391,6 +393,9 @@ figure {
     left: 3px;
 }
 .statement:checked {
+    background-color: #2196f3;
+}
+.statement:checked + .svg-personal-data {
     color: #2196f3;
 }
 .email {
