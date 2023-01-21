@@ -443,6 +443,7 @@ figure {
     letter-spacing: 0.06em;
     color: #ffffff;
     background: #2196f3;
+    border: 2px solid #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 200px;
@@ -467,13 +468,18 @@ figure {
     letter-spacing: 0.06em;
     color: #ffffff;
     background: #2196f3;
+    border: 2px solid #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 200px;
     height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    outline: none;
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    right: 13px;
 }
 .instagram-icon {
     fill: var(--verylightgrey);
