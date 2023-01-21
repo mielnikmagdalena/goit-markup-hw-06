@@ -405,6 +405,7 @@ figure {
     position: relative;
     margin-top: 20px;
     margin-left: 54px;
+    cursor: pointer;
 }
 .box {
     position: absolute;
